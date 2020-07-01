@@ -33,9 +33,61 @@ assets/目录下存放 图片，CSS,js等资源
 
 本地仓库中新建_drafts目录 或者随便。
 
+### 获取源码
+
+在项目界面点击Clone，下载zip包，或者 使用命令
+
+```git clone git@github.com:sethyang8910/sethyang8910.github.io.git ```
+
+### 编译
+
+  首次运行
+
+  ```bundle install```
+
+  然后
+
+  ```bundle exec jekyll serve```
+
+  本地调试地址 ``` 127.0.0.1:4000 ```
+
+```jekyll serve```执行后会自动把整站的静态文件生成到```../publish-sethy```目录
+
+### 推送+部署
 
 
+```../publish-sethy``` 将该目录作为一个新的git仓库
 
+``` git init ```
+
+``` git remote add origin git@github.com:sethyang8910/sethyang8910.github.io.git ```
+
+
+以下命令可以写成脚本，发布的时候执行脚本即可。
+
+``` git add . ```  追踪所有修改。
+
+``` git commit -m "auto push" ```  相当于带备注的ctrl+s
+
+``` git push origin master ``` 推送到远程仓库的master分支
+
+部署是github自动执行。
+
+### 为啥搞这么麻烦
+
+1. github 的安全限制会导致编译失败。
+
+  所以只能自己编译.
+
+2. github部署的奇怪变更
+
+  以前是可以编译到一个当前目录，比如site下面，然后指定pages服务使用哪个目录发布。
+  然而现在的情况是，如果你使用username.github.io作为仓库名的时候，你发布的网站网址就是username.github.io，这很好，但是这种情况下pages只能默认使用master分支发布，这就导致该分支下面只能放编译好的文件。
+
+  不用username.github.io作为仓库名时，可以任意指定分支和目录进行发布，但是网址的url就会变成```username.github.io/仓库名```，这就导致不管是绑定自己的域名也好，做https也好，甚至各种模版中{site.url}的修改啥的都会很麻烦.
+
+
+---
 ## Jasper2
 
 [![Build Status](https://travis-ci.org/jekyller/jasper2.svg?branch=master)](https://travis-ci.org/jekyller/jasper2)
