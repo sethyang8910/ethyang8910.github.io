@@ -45,13 +45,17 @@ assets/目录下存放 图片，CSS,js等资源
 
   ```bundle install```
 
-  然后
+  然后本地调试
 
   ```bundle exec jekyll serve```
-
   本地调试地址 ``` 127.0.0.1:4000 ```
 
-```jekyll serve```执行后会自动把整站的静态文件生成到```../publish-sethy```目录
+
+  ```bundle exec jekyll serve```执行后会自动把整站的静态文件生成到```../publish-sethy```目录
+
+  仅编译不启动本地服务:
+
+  ``` bundle exec jekyll build``` 
 
 ### 推送+部署
 

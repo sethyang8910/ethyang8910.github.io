@@ -1,12 +1,8 @@
 
-_posts/214.md
-
 _drafts/
 
 _backup/
 
-
-git-quickstart-binary.png
 _site
 .sass-cache
 node_modules
@@ -14,8 +10,6 @@ Gemfile.lock
 *.gem
 npm-debug.log
 
-
-*.sh
 .vscode
 
 
