@@ -1,8 +1,13 @@
 ## MyBolg
 
-什么都可能会写一点儿，更新极其不稳定，草稿箱和备份里面的太监稿比发出来的要多得多...
+### 分支信息
 
-The theme fork from Jasper2, you can find more details of Jasper2 below.
+源文件在```source```分支  
+
+master分支仅用于github pages部署。
+
+博客发布在_post/文件夹
+
 
 
 
