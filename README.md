@@ -6,8 +6,32 @@
 
 master分支仅用于github pages部署。
 
-博客发布在_post/文件夹
 
+### source下目录介绍
+
+博客发布在_post/文件夹.
+
+assets/目录下存放 图片，CSS,js等资源
+
+### tag
+
+1. 新增tag
+
+  ```_data/tags.yml```  
+
+2. 如果新tag要显示在导航条
+
+  ```_includes/navigation.html```中新增。
+
+  修改导航条也在这里。
+
+### 新增、修改图片css等资源
+
+```assets/```
+
+### 草稿箱
+
+本地仓库中新建_drafts目录 或者随便。
 
 
 
