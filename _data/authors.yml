@@ -1,0 +1,20 @@
+SethYang:
+  username: Seth Yang
+  name: Seth Yang
+  url_full: https://seth-yang.com
+  url: seth-yang.com
+  bio: 愿意把时间浪费在没意义的小事情上的胖子
+  picture: n/a # 头像 例如 assets/images/ghost.png
+  facebook: n/a
+  twitter: https://twitter.com/Seth_Yang
+  cover: False # 作者封面
+lament:
+  username: lament
+  name: lament
+  location: China
+  url_full: https://lament-z.com/
+  url: https://lament-z.com/
+  bio: 被皇家药剂师协会开除了还一心效忠希尔瓦娜斯女王的蛇精病亡灵法师的试验记录
+  facebook: False
+  twitter: n/a
+  cover: False # 作者封面
