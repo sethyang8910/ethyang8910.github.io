@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="http://localhost:4000/tag/project/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-07-01T20:09:00+08:00</updated>
-  <id>http://localhost:4000/tag/project/feed.xml</id>
+  <link href="/tag/project/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="/" rel="alternate" type="text/html" />
+  <updated>2020-07-02T11:17:20+08:00</updated>
+  <id>/tag/project/feed.xml</id>
 
   
   
@@ -35,11 +35,11 @@
   
     <entry>
       <title type="html">Test1</title>
-      <link href="http://localhost:4000/sample1" rel="alternate" type="text/html" title="Test1" />
+      <link href="/sample1" rel="alternate" type="text/html" title="Test1" />
       <published>2020-07-01T00:00:00+08:00</published>
       <updated>2020-07-01T00:00:00+08:00</updated>
-      <id>http://localhost:4000/sample1</id>
-      <content type="html" xml:base="http://localhost:4000/sample1">&lt;h1 id=&quot;一级标题&quot;&gt;一级标题&lt;/h1&gt;
+      <id>/sample1</id>
+      <content type="html" xml:base="/sample1">&lt;h1 id=&quot;一级标题&quot;&gt;一级标题&lt;/h1&gt;
 
 &lt;h2 id=&quot;二级标题&quot;&gt;二级标题&lt;/h2&gt;
 
