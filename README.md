@@ -6,12 +6,44 @@
 
 master分支仅用于github pages部署。
 
+### 模版头部信息
+
+```  
+---
+
+layout: post  # 不用改，这个是指定jekyll把md转html时用哪个文件进行布局
+
+current: post  # 不用改，功能跟上面类似
+
+cover: assets/images/bus.jpg # 封面，可选
+
+navigation: True  # 是否显示导航条，也不用改
+
+title: Gettysburg Address # 文章标题
+
+date: 1863-11-19 10:18:00 # 可选
+
+tags: [inside-outside] # 标签 注意[xxx]要与下面的`post tag-xxx`一致
+
+class: post-template  # 这个不用改
+
+subclass: 'post tag-inside-outside' # 标签
+
+author: SethYang ## 可选，内容可以填SethYang,已创建
+
+---
+```
+
+### 新增作者  
+
+  ```_data/authors.yml```  
+
 
 ### source下目录介绍
 
-博客发布在_post/文件夹.
+  博客发布在_post/文件夹.
 
-assets/目录下存放 图片，CSS,js等资源
+  assets/目录下存放 图片，CSS,js等资源
 
 ### tag
 
@@ -55,7 +87,7 @@ assets/目录下存放 图片，CSS,js等资源
 
   仅编译不启动本地服务:
 
-  ``` bundle exec jekyll build``` 
+  ``` bundle exec jekyll build```
 
 ### 推送+部署
 
@@ -76,6 +108,16 @@ assets/目录下存放 图片，CSS,js等资源
 ``` git push origin master ``` 推送到远程仓库的master分支
 
 部署是github自动执行。
+
+### TODO  
+
+1. CNAME文件不能正常生成
+   目前要么就手动添加，要么就每次发布完到github项目里的setting里添加。
+
+2. 原首页，现在的home.html与预期不符
+
+   home.html应该显示post-card，然而啥也没有。
+
 
 ### 为啥搞这么麻烦
 
