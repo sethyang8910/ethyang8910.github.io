@@ -10,3 +10,7 @@ inside-outside:
   name: InSide OutSide
   description: InSide & OutSide # false or xxxx
   cover: False # False or assets/images/xxx.jpg
+sehtyang:
+  name: sethyang
+  description: sethyang
+  cover: False
