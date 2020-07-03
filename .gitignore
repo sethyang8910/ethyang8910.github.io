@@ -1,9 +1,9 @@
 
 _drafts/
-
 _backup/
-
 _site
+
+CNAME
 .sass-cache
 node_modules
 Gemfile.lock
